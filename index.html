@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipes | The Recipe Bank</title>
+    <meta name="description" content="Try our popular exciting recipes. Learn to cook like a professional | The Recipe Bank">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css" fetchpriority="high">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="The Recipe Bank">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+<header>
+
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <div class="container">
+
+        <div class="navbar-wrapper">
+
+            <a class="logo" href="/" aria-hidden="true">
+                <img src="/img/logo.svg" width="186" height="60" alt="The Recipe Bank Logotype">
+            </a>
+
+            <nav>
+                <ul class="nav">
+                    <li><a aria-current="page" href="/">Recipes</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="/login.html" aria-label="User Login">
+                <i class="fa-regular fa-circle-user" aria-hidden="true"></i>
+            </a>
+
+        </div>
+    </div>
+</header>
+
+<main id="main">
+
+    <div class="container">
+
+        <section class="hero">
+            <img src="/img/pancakes.jpg" width="1280" height="400" alt="Pancakes">
+        </section>
+
+        <header>
+            <h1>Recipes</h1>
+        </header>
+
+        <section>
+
+            <h2>Form</h2>
+
+            <form action="#" method="post">
+
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+                <div class="form-group span-all">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group span-all">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <fieldset class="span-all">
+
+                    <legend>
+                        Query Type
+                    </legend>
+
+                    <div class="form-group">
+                        <input type="radio" id="general" name="query" value="general-enquiry" required>
+                        <label for="general">General Enquiry</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="radio" id="support" name="query" value="support" required>
+                        <label for="support">Support Request</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-group span-all">
+                    <label for="priority">Priority</label>
+                    <select id="priority" name="priority">
+                        <option value="" disabled selected>-- Select your priority --</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group span-all">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+
+                <div class="form-group span-all">
+                    <input type="checkbox" name="consent" id="consent" required>
+                    <label for="consent">I consent to being contacted by the team</label>
+                </div>
+
+                <button class="span-all">Submit</button>
+            </form>
+
+
+
+        <section>
+
+            <h2>Recipes</h2>
+
+            <div class="cards-grid">
+
+                <article class="card">
+
+                    <img src="/img/recept-bild.jpg" width="600" height="200" alt="Card visual">
+
+                    <header>
+                        <h2>Card Tit</h2>
+                    </header>
+
+                    <div class="card-body">
+                        <p>This is the primary content of the card. It explains the main point of the snippet.</p>
+                    </div>
+
+                    <footer>
+                        <button>Read more</button>
+                    </footer>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img src="/img/recept-bild.jpg" width="600" height="200" alt="Card visual">
+
+                    <header>
+                        <h2>Card Title Card</h2>
+                    </header>
+
+                    <div class="card-body">
+                        <p>
+                            This is the primary content of the card. It explains the main point of the snippet.
+                            This is the primary content of the card. It explains the main point of the snippet.
+                        </p>
+                    </div>
+
+                    <footer>
+                        <button class="primary">Read more</button>
+                    </footer>
+                </article>
+
+
+                <article class="card">
+
+                    <img src="/img/recept-bild.jpg" width="600" height="200" alt="Card visual">
+
+                    <header>
+                        <h2>Card Title</h2>
+                    </header>
+
+                    <div class="card-body">
+                        <p>This is the primary content of the card. It explains the main point of the snippet.</p>
+                    </div>
+
+                    <footer>
+                        <button>Read more</button>
+                    </footer>
+                </article>
+
+                <article class="card">
+                    <img src="/img/recept-bild.jpg" width="600" height="200" alt="Card visual">
+                    <header>
+                        <h2>Card Title</h2>
+                    </header>
+                    <div class="card-body">
+                        <p>This is the primary content of the card. It explains the main point of the snippet.</p>
+                    </div>
+                    <footer>
+                        <button>Read more</button>
+                    </footer>
+                </article>
+
+
+                <article class="card">
+                    <img src="/img/recept-bild.jpg" width="600" height="200" alt="Card visual">
+                    <header>
+                        <h2>Card Title</h2>
+                    </header>
+                    <div class="card-body">
+                        <p>
+                            This is the primary content of the card. It explains the main point of the snippet.
+                            This is the primary content of the card. It explains the main point of the snippet.
+                        </p>
+                    </div>
+                    <footer>
+                        <button>Read more</button>
+                    </footer>
+                </article>
+
+
+                <article class="card">
+                    <img src="/img/recept-bild.jpg" width="600" height="200" alt="Card visual">
+                    <header>
+                        <h2>Card Title</h2>
+                    </header>
+                    <div class="card-body">
+                        <p>This is the primary content of the card. It explains the main point of the snippet.</p>
+                    </div>
+                    <footer>
+                        <button>Read more</button>
+                    </footer>
+                </article>
+            </div>
+
+        </section>
+    </div>
+</main>
+
+</body>
+</html>
